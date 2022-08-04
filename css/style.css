@@ -404,6 +404,10 @@ header{
     color:#6C63FF;
     font-weight: 900;
 }
+.company-info h5 a{
+    text-decoration: none;
+    color:#6C63FF;
+}
 .product-links h5,.userful-links h5, .contact-info h5{
     color:#6C63FF;
 }
