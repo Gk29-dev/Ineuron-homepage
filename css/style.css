@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #101426;
+    color:#fff;
+}
+header{
+    background:linear-gradient(rgba(14,25,36,0.9),rgba(14,25,36,0.9)),url('../images/bg.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;          
+    color:#ffff;
+}
+.navbar{
+    margin-top: 10px;
+}
+#navbarSupportedContent{
+    margin-left:50px;
+}
+.navbar .nav-item{
+    font-size:14px;
+    margin:0px 5px;
+}
+.navbar .nav-item a:hover{
+    color:#6C63FF;
+}
+.dropdown-menu{
+    background-color:#101426;
+}
+.dropdown-menu .dropdown-item{
+    color:#B3B0B6;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color:#101426;
+    color:#6C63FF;
+}
+.dropdown-menu li {
+    position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+.signup{
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.signup-btn{
+    color:#fff;
+    border:1px solid #6C63FF;
+}
+.signin-btn{
+    background-color:#6C63FF;
+    color:#fff;
+    margin-top: 5px;
+}
+.coaching-img{
+    background: url('../images/online-coaching.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 500px;
+    margin-left: 70px;
+ }
+.banner{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.banner .row{
+    padding:60px 0px;
+}
+.banner h1{
+    font-size:30px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.banner p{
+    margin:20px 0px;
+    font-size:14px;
+}
+.banner form{
+  margin-top:60px;  
+}
+.search-box{
+    padding:10px;
+    border-radius: 50px;
+    border:none;
+    outline: 0;
+    text-align: left;
+    background-color: black;
+    color:#1e1e1e;
+    padding-left:40px;
+}
+.search-box:focus{
+    background-color: black;
+    color:grey;
+    box-shadow: none;
+}
+.serach-btn{
+    position:relative;
+    right:67px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color:#fff;
+    transition: .5s ease-in-out;
+    outline: 0;
+    border:none;
+    background-color:#6C63FF;
+
+}
+.serach-btn:hover{
+    background-color:#4e46e1;
+    border:none;
+    outline: 0;
+}
+.course{
+    margin:80px 0px;
+}
+.course h1{
+    font-weight: 900;
+}
+.course-tab{
+    margin:60px 0px;
+}
+#myTab{
+    width: 50%;
+    margin:0px auto;
+}
+#myTab .nav-item{
+    margin:0px auto;
+}
+#myTab .nav-item .nav-link{
+    color:#fff;
+}
+#myTab .nav-item .active{
+    background-color:#6C63FF;
+    color:#fff;
+    border:none;
+    outline: 0;
+}
+#myTabContent .card{
+    color:#fff;
+    padding:10px;
+    background-color: #222B45;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    top:0px;
+    width: 18rem;
+}
+#myTabContent .card:hover{
+    position: relative;
+    top:-5px;
+}
+#myTabContent .card-img-top{
+    border-radius: 5px;
+}
+#myTabContent .card-body{
+    padding-left:5px;
+    padding-right:0px;
+}
+#myTabContent .card-title{
+    font-size:16px;
+    font-weight: 400;
+}
+#myTabContent .card-text{
+    display: inline-block;
+    margin:20px 0px;
+    font-weight: 700;
+}
+#myTabContent a{
+    font-size:14px;
+    float:right;
+    margin:15px 0px;
+    background-color: transparent;
+    border:1px solid #6C63FF;
+}
+#myTabContent a:hover{
+  background-color: #fff;
+  color:#6C63FF;
+  border:none;
+  outline: 0;
+  font-weight: 700;
+}
+.view-all{
+    text-align: center;
+    margin-top: 80px;
+}
+.view-all-btn{
+  padding:10px 40px;
+  background: #6C63FF;
+  color:#fff;
+  border:none;
+  outline: 0;
+}
+.view-all-btn:hover{
+    background-color: #4e46e1;
+} 
+ .company-record{
+     margin:100px 0px;
+ }
+ .company-record h2{
+     text-align: center;
+ }
+ .hardwork{
+     color:#6C63FF;
+ }
+ 
+ .company-status{
+     margin-top: 40px;
+     background:linear-gradient(rgba(14,25,36,0.9),rgba(14,25,36,0.9)),url('../images/company_status_bg.png');
+     background-size: cover;
+     background-position: right;
+     background-repeat: no-repeat;   
+ 
+ }
+ .company-status .container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     padding:30px 0px;
+     color:#fff;
+ }
+ .company-status .card-icon{
+     text-align: center;
+ }
+ .company-status h1{
+     color:#6C63FF;
+     
+ }
+ .company-status i{
+     font-size:40px;
+     margin:30px 0px;
+ }
+.team h1{
+    margin:70px 0px;
+    text-transform: uppercase;
+}
+.tech-avenger-heading{
+    color:#6C63FF;
+    font-weight: 700;
+}
+.team-members{
+    margin-top: 20px;
+}
+
+.team-members .card{
+    color:#fff;
+    background-color: #101426;
+    width: 18rem;
+}
+.team-members .card{
+    box-shadow: 1px 1px 5px #222B45;
+}
+.team-members .card-img{
+    background-color: #222B45;
+    margin:0px auto;
+}
+.team-info{
+    margin:15px 0px;
+    text-align: center;
+}
+.team-info h5{
+    color:#6C63FF;
+}
+.team-info p{
+    color:#758283;
+}
+.team-info span{
+    margin:0px 10px;
+}
+.fa-linkedin-in:hover{
+    cursor: pointer;
+    color:#0A66C2;
+}
+.fa-instagram:hover{
+    color:#C235A7;
+    cursor: pointer;
+}
+.testimonial{
+    margin:80px 0px;
+}
+.testimonial h1{
+    text-transform: uppercase;
+}
+.testimonial-heading{
+    color:#6C63FF;
+}
+.hall-of-fame-cards .card{
+    max-width: 540px;
+    height: 220px;
+    color:#000;
+}
+.hall-of-fame-cards .card-1{
+    background-color: #6AC47E;
+}
+.hall-of-fame-cards .card-2{
+    background-color: #ff6b6b;
+}
+.hall-of-fame-cards .card-3{
+    background-color: #FFF3AA;
+}
+.hall-of-fame-cards .card-4{
+    background-color: #54a0ff;
+}
+.hall-of-fame-cards .card-text{
+    font-size:14px;
+}
+.student-img-card{
+    margin:30px 0px 0px 40px;
+}
+.student-img{
+    height: 150px;
+}
+.fa-quote-left, .fa-quote-right{
+    font-size:20px;
+    margin-right:10px;
+}
+.student-info h5{
+    font-weight: 700;
+}
+.student-info p{
+    color: #242B2E;
+    margin-top: 10px;
+}
+.product{
+    margin:100px;
+}
+.product h1{
+    text-transform: uppercase;
+}
+.product-heading{
+    color:#6C63FF;
+}
+.product .card{
+    width:100%;
+    height: 15rem;
+    padding:10px 10px;
+    position:relative;
+    background-color: #222B45;
+    color:#fff;
+    box-shadow: 1px 1px 5px #6C63FF;
+    margin-right: 30px;
+}
+.product .card-title{
+    font-size:26px;
+}
+.product .card-text{
+    font-size:14px;
+}
+.product .card a{
+    position:absolute;
+    bottom:30px;
+    background-color: transparent;
+    border:1px solid #6C63FF;
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+}
+.product .card a:hover{
+    border:none;
+    outline:0;
+    background-color:#6C63FF;
+}
+.product-img{
+    width:200px;
+    height: 200px;
+}
+
+.social-link{
+    background-color: #6C63FF;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 60px;
+}
+.footer-links{
+    background-color: rgba(14,25,36);
+    color:#fff;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+.company-info h5{
+    text-transform: uppercase;
+    color:#6C63FF;
+    font-weight: 900;
+}
+.product-links h5,.userful-links h5, .contact-info h5{
+    color:#6C63FF;
+}
+.footer-links .links .link-item{
+    font-size:14px;
+    color:#758283;
+}
+.footer-links .links .link-item:hover{
+    color:#6C63FF;
+}
+.footer-links .links .list-item{
+    font-size:14px;
+    color:#758283;
+}
+.social-icon{
+    margin-left:10px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.footer-links ul{
+    list-style-type: none;
+    padding:0;
+}
+.footer-links ul li{
+    margin:10px 0px;
+}
+
+@media screen and (max-width:576px) {
+    #navbarSupportedContent{
+        margin-left: 0px;
+    }
+    .signup{
+        margin:20px 0px;
+    }
+    .banner .row{
+        padding:40px 0px;
+    }
+    .banner p{
+        font-size:20px;
+    }
+    .search-box{
+        width: 100%;
+    }
+    .serach-btn{
+        position: static;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .coaching-img{
+        margin:0px;
+        width: 450px;
+        height: 300px;
+        margin-top: 40px;
+    }
+    #myTab{
+        width: 100%;
+    }
+    #myTabContent .card{
+        width: 100%;
+        margin:20px 0px;
+    }
+    .team-members .card{
+        width: 100%;
+    }
+    .student-img-card{
+        margin-left:0px;
+    }
+    .student-img {
+        display: block;
+        margin:0px auto;
+    }
+    .hall-of-fame-cards .card {
+        height: 100%;
+    }
+    .testimonial{
+        margin:10px 10px;
+    }
+    .testimonial-card{
+        margin-bottom: 30px;
+    }
+    .testimonial-card .card-body{
+        text-align: center;
+    }
+    .testimonial-card .card-text{
+        font-size:20px;
+    }
+    .product{
+        margin:70px 10px;
+    }
+    .product h1{
+        margin-left: 10px;
+    }
+    .product .card{
+        height: 100%;
+    }
+    .product .card a{
+        position: static;
+    }
+    .product-img {
+        display: block;
+        margin:0px auto;
+    }
+    .product-card{
+        margin-bottom: 30px;
+    }
+    .product-card .card-text{
+        font-size:20px;
+    }
+    .social-link{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding:10px 0px;
+    }
+    .social-icons{
+        margin-top: 15px;
+    }
+    .social-icon{
+        margin:0px 30px;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+}
